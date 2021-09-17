@@ -1,0 +1,38 @@
+input,
+textarea {
+  border: 1px solid grey;
+  font-family: Arial;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+  display: block;
+  margin: 5px 0px;
+}
+textarea {
+  height: 100px;
+}
+label {
+  font-size: 16px;
+  font-weight: 550;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 3px solid #428bca;
+  padding: 5px;
+}
+
+form {
+  display: block;
+}
+
+.send {
+  background-color:#428bca;
+  color: white;
+  
+}
+
+.send:hover {
+  outline: none;
+  background-color:#00416a;
+}
